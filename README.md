@@ -2,6 +2,8 @@
 
 Welcome to the **Lead Funnel Service** technical test.
 
+> **How to start**: click **"Use this template"** to create a copy in your own GitHub account, and please set its visibility to **Private**. Share access with your interviewer when requested.
+
 At Leadsales, a workspace organizes its leads in a **funnel**: a board of ordered stages (e.g. `New`, `Contacted`, `Qualified`, `Closed`). Leads enter the funnel and move between stages as the sales conversation progresses.
 
 This test has **two parts**:
