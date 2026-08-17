@@ -6,12 +6,24 @@ Welcome to the **Lead Funnel Service** technical test.
 
 At Leadsales, a workspace organizes its leads in a **funnel**: a board of ordered stages (e.g. `New`, `Contacted`, `Qualified`, `Closed`). Leads enter the funnel and move between stages as the sales conversation progresses.
 
-This test has **two parts**:
+This is a **take-home test**. You have **up to 2 hours** and it has **two parts**:
 
-- **Part 1 — Implementation** (~45 min): implement the core domain logic.
-- **Part 2 — Systems Analysis** (~15 min written, discussed afterwards): reason about how this design behaves in the real world.
+- **Part 1 — Implementation**: implement the core domain logic.
+- **Part 2 — Systems Analysis** (written in `ANALYSIS.md`, discussed in the review session): reason about how this design behaves in the real world.
 
-We are as interested in **how you think** as in the code you write. Before writing any code, read everything, form a mental model, and **ask the clarifying questions you need**. Think out loud throughout.
+We are as interested in **how you think** as in the code you write. Before writing any code, read everything and form a mental model. The business rules are intentionally incomplete: **document every assumption you make** in `ANALYSIS.md` (there is a section for it), or send your questions to your interviewer before starting.
+
+## AI Usage — required reading
+
+Using an AI coding agent (Claude Code, Cursor, Antigravity, Copilot, etc.) is **allowed and expected** — we work that way at Leadsales. Two conditions:
+
+1. **You must share your complete session** with the agent as part of your submission (see Deliverables). How you direct the agent — what you ask, what you question, what you reject, what you verify — is a core part of the evaluation.
+2. **You own every line.** In the review session we will ask you to explain and modify any part of the code without the agent. Submitting code you don't understand is the fastest way to fail this test.
+
+## Deliverables
+
+1. Your repository (created from this template, **private**), with your implementation and completed `ANALYSIS.md`. Share access with your interviewer.
+2. Your **full AI session**: export the complete transcript(s) of your agent session(s) into an `ai-session/` folder in the repo (markdown, JSON, or your tool's export format — whatever preserves the full conversation). If you worked without an agent, say so explicitly in `ANALYSIS.md`.
 
 ## Project Structure
 
@@ -35,7 +47,7 @@ src/
 3. Each stage may define a **capacity limit** (maximum number of leads it can hold). Moving or adding a lead into a full stage must be rejected.
 4. Moving a lead to the stage it is already in is not a valid transition.
 
-> The rules above do not cover every situation. Deciding what is underspecified — and asking about it — is part of the test.
+> The rules above do not cover every situation. Deciding what is underspecified — and documenting your assumptions about it — is part of the test.
 
 ## Part 1 — Implementation
 
@@ -84,6 +96,6 @@ Answer in `ANALYSIS.md`. Short, concrete answers beat long generic ones — bull
 
 ## Time Limit
 
-Aim for **~1 hour total**: ~45 minutes for Part 1, ~15 minutes for Part 2. It is better to deliver Part 1 solid plus thoughtful partial answers than everything rushed.
+You have **up to 2 hours total**. Suggested split: ~80 minutes for Part 1, ~30 minutes for Part 2, and the rest for cleaning up your submission. It is better to deliver Part 1 solid plus thoughtful partial answers than everything rushed. Please be honest about the time you actually spent — note it in `ANALYSIS.md`.
 
 Good luck, and happy coding!
