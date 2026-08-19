@@ -2,7 +2,7 @@
 
 Welcome to the **Lead Funnel Service** technical test.
 
-> **How to start**: click **"Use this template"** to create a copy in your own GitHub account, and please set its visibility to **Private**. Share access with your interviewer when requested.
+> **How to start**: create a copy in your own GitHub account with **"Use this template"** and work there. When you finish, make sure your copy is **public** and send its link back to your recruiter — no pull request needed.
 
 At Leadsales, a workspace organizes its leads in a **funnel**: a board of ordered stages (e.g. `New`, `Contacted`, `Qualified`, `Closed`). Leads enter the funnel and move between stages as the sales conversation progresses.
 
@@ -22,7 +22,7 @@ Using an AI coding agent (Claude Code, Cursor, Antigravity, Copilot, etc.) is **
 
 ## Deliverables
 
-1. Your repository (created from this template, **private**), with your implementation and completed `ANALYSIS.md`. Share access with your interviewer.
+1. The **link to your public repository** (created from this template), with your implementation and completed `ANALYSIS.md`.
 2. Your **full AI session**: export the complete transcript(s) of your agent session(s) into an `ai-session/` folder in the repo (markdown, JSON, or your tool's export format — whatever preserves the full conversation). If you worked without an agent, say so explicitly in `ANALYSIS.md`.
 
 ## Project Structure
